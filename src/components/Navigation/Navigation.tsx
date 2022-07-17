@@ -30,7 +30,7 @@ const Navigation = ({ openMenu, onClick }: DropdownProps) => {
     <Wrapper ref={nav}>
       <List>
         <li>
-          <button onClick={() => setOpenDropdown(!isDropdownOpen)}>
+          <button onClick={() => setOpenDropdown((currState) => !currState)}>
             <svg
               width='25'
               height='25'

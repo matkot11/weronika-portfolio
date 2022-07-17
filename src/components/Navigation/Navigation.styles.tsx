@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   bottom: 0;
   left: 0;
   background-color: #fff;
+  z-index: 100;
 `;
 
 export const List = styled.ul`
