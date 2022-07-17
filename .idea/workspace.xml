@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9df03bb7-7993-4dd3-bfc3-f20f49efea9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home/Home.styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/Home.styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +52,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -70,7 +68,7 @@
       <updated>1657961451408</updated>
       <workItem from="1657961456291" duration="11731000" />
       <workItem from="1657982598348" duration="13078000" />
-      <workItem from="1658050980820" duration="11613000" />
+      <workItem from="1658050980820" duration="12889000" />
     </task>
     <servers />
   </component>

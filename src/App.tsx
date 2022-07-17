@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './assets/styles/theme';
 import { GlobalStyles } from './assets/styles/GlobalStyles';
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
         </Routes>
+        <Footer />
       </ThemeProvider>
     </>
   );

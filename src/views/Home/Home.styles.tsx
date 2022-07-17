@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   margin-top: 5rem;
   display: grid;
   grid-template-columns: repeat(10, 10vw);
-  grid-template-rows: repeat(30, 5rem);
+  grid-template-rows: repeat(28, 5rem);
 
   h2 {
     grid-column: 2 / 5;
@@ -74,7 +74,7 @@ export const BlueCircle = styled(CircleSVG)`
 export const ProjectsWrapper = styled.ul`
   padding: 0 2rem 0 2rem;
   grid-column: 1 / -1;
-  grid-row: 20 / 29;
+  grid-row: 20 / -1;
   background-color: #eea304;
   display: flex;
   flex-direction: column;
