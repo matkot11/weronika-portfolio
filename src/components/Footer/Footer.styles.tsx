@@ -5,7 +5,7 @@ export const FooterWrapper = styled.footer`
 `;
 
 export const InfoWrapper = styled.div`
-  margin: 2rem 0 2rem 3rem;
+  margin: 3.5rem 0 3.5rem 3rem;
 
   h3 {
     margin-bottom: 1rem;
