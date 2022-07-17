@@ -1,4 +1,8 @@
 import FaceImage from '../../assets/images/face.webp';
+import React, { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import { Link } from 'react-router-dom';
 import {
   BlueCircle,
   ImageBackground,
@@ -7,11 +11,7 @@ import {
   RedCircle,
   Wrapper,
   YellowCircle,
-} from './Home.styles';
-import React, { useEffect, useRef } from 'react';
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-import { Link } from 'react-router-dom';
+} from './Home.styles'
 
 const Home = () => {
   const yellowCircle = useRef<HTMLOrSVGElement>(null);
