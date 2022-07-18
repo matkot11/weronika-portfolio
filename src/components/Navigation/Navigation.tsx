@@ -1,7 +1,6 @@
-import { List, Wrapper } from './Navigation.styles';
+import { List, StyledNavLink, Wrapper } from './Navigation.styles';
 import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
-import { Link } from 'react-router-dom';
 
 interface DropdownProps {
   openMenu: boolean;
@@ -42,33 +41,33 @@ const Navigation = ({ openMenu, onClick }: DropdownProps) => {
               <path strokeLinecap='round' strokeLinejoin='round' d='M19 9l-7 7-7-7' />
             </svg>
           </button>
-          <Link to='/projects' onClick={onClick}>
+          <StyledNavLink to='/projects' onClick={onClick}>
             Projects
-          </Link>
+          </StyledNavLink>
         </li>
         {isDropdownOpen && (
           <>
             <li>
-              <Link to='/' onClick={onClick}>
+              <StyledNavLink to='/' onClick={onClick}>
                 Product Photography
-              </Link>
+              </StyledNavLink>
             </li>
             <li>
-              <Link to='/' onClick={onClick}>
+              <StyledNavLink to='/' onClick={onClick}>
                 Graphic Design
-              </Link>
+              </StyledNavLink>
             </li>
             <li>
-              <Link to='/' onClick={onClick}>
+              <StyledNavLink to='/' onClick={onClick}>
                 After Effects
-              </Link>
+              </StyledNavLink>
             </li>
           </>
         )}
         <li>
-          <Link to='/' onClick={onClick}>
+          <StyledNavLink to='/contact' onClick={onClick}>
             Contact
-          </Link>
+          </StyledNavLink>
         </li>
       </List>
     </Wrapper>

@@ -11,7 +11,7 @@ import {
   RedCircle,
   Wrapper,
   YellowCircle,
-} from './Home.styles'
+} from './Home.styles';
 
 const Home = () => {
   const yellowCircle = useRef<HTMLOrSVGElement>(null);

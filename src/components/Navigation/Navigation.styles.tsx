@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const Wrapper = styled.div`
   position: absolute;
@@ -23,5 +24,11 @@ export const List = styled.ul`
     align-items: center;
     font-size: 2.2rem;
     font-weight: ${({ theme }) => theme.fontWeight.regular};
+  }
+`;
+
+export const StyledNavLink = styled(NavLink)`
+  &.active {
+    color: #926402;
   }
 `;

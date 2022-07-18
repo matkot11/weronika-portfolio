@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './assets/styles/theme';
 import { GlobalStyles } from './assets/styles/GlobalStyles';
 import Footer from './components/Footer/Footer'
+import Contact from './views/Contact/Contact'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <Footer />
       </ThemeProvider>
