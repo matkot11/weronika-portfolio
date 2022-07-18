@@ -1,7 +1,7 @@
-import { ProjectWrapper, StyledLink, Wrapper } from './Projects.styles';
 import productPhotographyImage from '../../assets/images/designTypo.webp';
 import graphicDesignImage from '../../assets/images/apart.webp';
 import motionDesignImage from '../../assets/images/motionDesign.webp';
+import { ProjectWrapper, StyledLink, Wrapper } from './Projects.styles';
 
 const Projects = () => (
   <Wrapper>

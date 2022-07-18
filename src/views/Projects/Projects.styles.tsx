@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   p {
     margin: 1rem 0 2rem 0;
     width: 95%;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-weight: 300;
     line-height: 1.3;
   }
@@ -47,5 +47,5 @@ export const ProjectWrapper = styled(Link)`
 export const StyledLink = styled(Link)`
   color: #eea304;
   text-decoration: underline;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
 `;
