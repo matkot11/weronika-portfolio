@@ -53,7 +53,7 @@ const Navigation = ({ openMenu, onClick }: DropdownProps) => {
               </StyledNavLink>
             </li>
             <li>
-              <StyledNavLink to='/' onClick={onClick}>
+              <StyledNavLink to='/projects/graphic-design' onClick={onClick}>
                 Graphic Design
               </StyledNavLink>
             </li>
