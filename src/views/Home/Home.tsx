@@ -115,7 +115,7 @@ const Home = () => {
             projects.current[1] = element;
           }}
         >
-          <Link to='/'>Graphic Design 02</Link>
+          <Link to='/projects/graphic-design'>Graphic Design 02</Link>
         </li>
         <li
           ref={(element: HTMLLIElement) => {

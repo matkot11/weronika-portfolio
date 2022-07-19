@@ -10,7 +10,7 @@ const Projects = () => (
       <img src={productPhotographyImage} alt='Product photography' />
       <h3>Product Photography 01</h3>
     </ProjectWrapper>
-    <ProjectWrapper to='/'>
+    <ProjectWrapper to='/projects/graphic-design'>
       <img src={graphicDesignImage} alt='Graphic design' />
       <h3>Graphic Design 02</h3>
     </ProjectWrapper>
